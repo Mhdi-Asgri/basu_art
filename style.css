@@ -224,7 +224,6 @@ button:hover {
   background-color: #fff;
   width: 11.6rem;
   height: 4.4rem;
-  padding: 0 2rem;
   text-align: center;
   font-family: "Plus Jakarta Sans";
   text-align: center;
@@ -248,13 +247,15 @@ button:hover {
   margin-right: auto;
 }
 
-.works--container {
+.work--card {
+  background-color: var(--second-bg-color);
+  width: 30.4rem;
+  height: 38.8rem;
+  border-radius: 1rem;
+  margin: 0 3rem 3rem 3rem;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-items: center;
-  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .card--bottom {
@@ -308,9 +309,9 @@ button:hover {
 .load__more--count {
   margin-left: auto;
 }
-.padding_right {
+/* .padding_right {
   margin-right: 6rem;
-}
+} */
 
 .logo--explaination {
   color: #1a202c;
@@ -392,6 +393,6 @@ footer{
   font-size: 1.6rem;
 }
 
-.marigin--right{
+.heading--marigin{
   margin: 3rem 7.2rem 3rem 0;
 }
